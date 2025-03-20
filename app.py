@@ -1,10 +1,10 @@
 import streamlit as st
-# import joblib
+import joblib
 import numpy as np
 
 # Charger le modèle
-# model_path = "Titanic_prediction.pkl"
-# model = joblib.load(model_path)  
+model_path = "Titanic_prediction.pkl"
+model = joblib.load(model_path)  
 
 st.title('🛳️ Prédiction de survie des passagers du Titanic')
 st.image("https://c4.wallpaperflare.com/wallpaper/621/139/660/night-ice-uk-transatlantic-steamer-titanic-hd-wallpaper-preview.jpg", caption="le titanic")
